@@ -1,0 +1,42 @@
+body {
+    background-image: url(../resources/party.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    opacity: 0.95;
+    padding: 20px 0px 60px 0px;
+    width: 400px;
+}
+
+h1 {
+    color: #033bb6;
+}
+
+#birthDate {
+    height: 30px;
+    outline: #033bb6;
+}
+
+button {
+    background-color: #033bb6;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.red {
+    color: red;
+}
